@@ -1,3 +1,39 @@
+body{
+    margin: 0 auto;
+    width: 1000px;
+}
+
 .block{
-    background-color:blue;
+    background-color:brown;
+    height: 75px;
+    text-align: right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+    color: white;
+}
+.block a{
+    color: white;
+    margin: 10px;
+}
+.block h2{
+    text-align: left;
+    margin-right: 10px;
+         
+}
+
+
+.section1{
+    display: flex;
+}
+.section1 article{
+    text-align: center;
+    width: 50%;
+}
+
+.section1 p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.section1 h1 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
