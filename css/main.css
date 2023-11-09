@@ -1,0 +1,30 @@
+header {
+  background-color: #150300;
+  height: 75px;
+  color: white;
+}
+header nav {
+  text-align: right;
+}
+header nav a {
+  margin: 8px;
+  color: white;
+}
+
+body {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+.section1 {
+  display: flex;
+  justify-content: center;
+}
+.section1 article {
+  text-align: center;
+}
+
+footer {
+  background-color: #575757;
+  height: 50px;
+}/*# sourceMappingURL=main.css.map */
