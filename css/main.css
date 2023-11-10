@@ -22,9 +22,11 @@ body {
 }
 .section1 article {
   text-align: center;
+  width: 50%;
+  color: #414141;
 }
 
 footer {
-  background-color: #575757;
+  background-color: #414141;
   height: 50px;
 }/*# sourceMappingURL=main.css.map */
