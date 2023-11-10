@@ -1,7 +1,7 @@
 
 @use"./partial/variables";
 @use"./partial/colors";
-
+@use"./partial/typography";
 
 header{
     background-color: variables.$primary-color;
@@ -30,6 +30,7 @@ body {
         width: 50%;
         p{
             color: colors.$primary-color;
+            font-family: typography.$primary-font;
         }
     a{
         color: colors.$secondary-color;

@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis&family=Montserrat&display=swap");
 header {
   background-color: #150300;
   height: 75px;
@@ -26,6 +27,7 @@ body {
 }
 .section1 article p {
   color: #575757;
+  font-family: "Montserrat", sans-serif;
 }
 .section1 article a {
   color: #DB8D33;
