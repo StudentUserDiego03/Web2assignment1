@@ -7,8 +7,13 @@ header{
     background-color: variables.$primary-color;
     height: 75px;
     color: white;
+    h1{
+        font-size: 27px;
+        font-family: typography.$title;
+    }
     nav{
         text-align: right;
+        font-family: typography.$title;
         a{
             margin: 8px;
             color: white;
@@ -28,6 +33,10 @@ body {
     article{
         text-align: center;
         width: 50%;
+        h1{
+            font-family: typography.$title;
+            font-size: 25px;
+        }
         p{
             color: colors.$primary-color;
             font-family: typography.$primary-font;
@@ -46,6 +55,7 @@ footer{
     color: white;
     p{
         margin: 20px;
+        font-family: typography.$primary-font;
     }
 }
 

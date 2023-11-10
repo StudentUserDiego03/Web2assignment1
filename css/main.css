@@ -1,11 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Dosis&family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis&family=Montserrat&display=swap");
 header {
   background-color: #150300;
   height: 75px;
   color: white;
 }
+header h1 {
+  font-size: 27px;
+  font-family: "Montserrat", sans-serif;
+}
 header nav {
   text-align: right;
+  font-family: "Montserrat", sans-serif;
 }
 header nav a {
   margin: 8px;
@@ -25,9 +31,13 @@ body {
   text-align: center;
   width: 50%;
 }
+.section1 article h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+}
 .section1 article p {
   color: #575757;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Dosis", sans-serif;
 }
 .section1 article a {
   color: #DB8D33;
@@ -41,4 +51,5 @@ footer {
 }
 footer p {
   margin: 20px;
+  font-family: "Dosis", sans-serif;
 }/*# sourceMappingURL=main.css.map */
