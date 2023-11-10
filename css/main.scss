@@ -4,7 +4,7 @@
 @use"./partial/typography";
 
 header{
-    background-color: variables.$primary-color;
+    background-color: variables.$darker-background;
     height: 75px;
     color: white;
     h1{
@@ -49,7 +49,7 @@ body {
 }
 
 footer{
-    background-color: variables.$secondary-color;
+    background-color: variables.$dark-background;
     height: 50px;
     display: flex;
     color: white;
