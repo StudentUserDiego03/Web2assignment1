@@ -1,9 +1,10 @@
 
+@use"./partial/variables";
 @use"./partial/colors";
-@use"./partial/fontcolors";
+
 
 header{
-    background-color: colors.$primary-color;
+    background-color: variables.$primary-color;
     height: 75px;
     color: white;
     nav{
@@ -27,12 +28,23 @@ body {
     article{
         text-align: center;
         width: 50%;
-        color: fontcolors.$secondary-fontcolor;
+        p{
+            color: colors.$primary-color;
+        }
+    a{
+        color: colors.$secondary-color;
+    }    
+        
     }
 }
 
 footer{
-    background-color: colors.$secondary-color;
+    background-color: variables.$secondary-color;
     height: 50px;
+    display: flex;
+    color: white;
+    p{
+        margin: 20px;
+    }
 }
 

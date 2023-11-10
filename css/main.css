@@ -23,10 +23,20 @@ body {
 .section1 article {
   text-align: center;
   width: 50%;
-  color: #414141;
+}
+.section1 article p {
+  color: #575757;
+}
+.section1 article a {
+  color: #DB8D33;
 }
 
 footer {
   background-color: #414141;
   height: 50px;
+  display: flex;
+  color: white;
+}
+footer p {
+  margin: 20px;
 }/*# sourceMappingURL=main.css.map */
