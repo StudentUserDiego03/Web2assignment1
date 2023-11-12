@@ -35,15 +35,20 @@ body {
         width: 50%;
         h1{
             font-family: typography.$title;
-            font-size: 25px;
+            font-size: 30px;
         }
         p{
             color: colors.$primary-color;
             font-family: typography.$primary-font;
+            font-size: 18px;
         }
     a{
         color: colors.$secondary-color;
     }    
+
+    span{
+        font-family: typography.$heading;
+    }
         
     }
 }
@@ -54,7 +59,7 @@ footer{
     display: flex;
     color: white;
     p{
-        margin: 20px;
+        margin: 15px;
         font-family: typography.$primary-font;
     }
 }

@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Dosis&family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dosis&family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis&family=Marck+Script&family=Montserrat:wght@400;600&display=swap");
 header {
   background-color: #150300;
   height: 75px;
@@ -33,14 +34,18 @@ body {
 }
 .section1 article h1 {
   font-family: "Montserrat", sans-serif;
-  font-size: 25px;
+  font-size: 30px;
 }
 .section1 article p {
   color: #575757;
   font-family: "Dosis", sans-serif;
+  font-size: 18px;
 }
 .section1 article a {
   color: #DB8D33;
+}
+.section1 article span {
+  font-family: "Marck Script", cursive;
 }
 
 footer {
@@ -50,6 +55,6 @@ footer {
   color: white;
 }
 footer p {
-  margin: 20px;
+  margin: 15px;
   font-family: "Dosis", sans-serif;
 }/*# sourceMappingURL=main.css.map */
