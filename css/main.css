@@ -31,6 +31,7 @@ body {
 .section1 article {
   text-align: center;
   width: 50%;
+  margin: -30px;
 }
 .section1 article h1 {
   font-family: "Montserrat", sans-serif;

@@ -17,6 +17,7 @@ header{
         a{
             margin: 8px;
             color: white;
+            
         }
     }   
     
@@ -33,6 +34,7 @@ body {
     article{
         text-align: center;
         width: 50%;
+        margin:-30px;
         h1{
             font-family: typography.$title;
             font-size: 40px;
