@@ -34,18 +34,19 @@ body {
 }
 .section1 article h1 {
   font-family: "Montserrat", sans-serif;
-  font-size: 30px;
+  font-size: 40px;
 }
 .section1 article p {
   color: #575757;
   font-family: "Dosis", sans-serif;
-  font-size: 18px;
+  font-size: 22px;
 }
 .section1 article a {
   color: #DB8D33;
 }
 .section1 article span {
   font-family: "Marck Script", cursive;
+  font-size: 34px;
 }
 
 footer {

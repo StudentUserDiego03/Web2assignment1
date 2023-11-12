@@ -35,19 +35,20 @@ body {
         width: 50%;
         h1{
             font-family: typography.$title;
-            font-size: 30px;
+            font-size: 40px;
         }
         p{
-            color: colors.$primary-color;
+            color: colors.$primary-font-color;
             font-family: typography.$primary-font;
-            font-size: 18px;
+            font-size: 22px;
         }
     a{
-        color: colors.$secondary-color;
+        color: colors.$secondary-font-color;
     }    
 
     span{
         font-family: typography.$heading;
+        font-size: 34px;
     }
         
     }
