@@ -7,17 +7,26 @@ header{
     background-color: variables.$darker-background;
     height: 75px;
     color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
     h1{
         font-size: 27px;
         font-family: typography.$title;
+        
     }
     nav{
-        text-align: right;
         font-family: typography.$title;
+        display: flex;
+        flex-direction: row;
+           
+             
         a{
             margin: 8px;
             color: white;
-            
+            text-align: right;
+                        
         }
     }   
     
@@ -60,6 +69,9 @@ footer{
     background-color: variables.$dark-background;
     height: 50px;
     display: flex;
+    flex-direction: row;
+    align-items: center;
+
     color: white;
     p{
         margin: 15px;
